@@ -4,8 +4,7 @@
     <list default="true" id="e792843b-ecd6-4715-891e-9a6f8d3fc23d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/anuncios.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/anuncios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editar-anuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/editar-anuncio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meus_anuncios.php" beforeDir="false" afterPath="$PROJECT_DIR$/meus_anuncios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,26 +48,35 @@
       <file leaf-file-name="editar-anuncio.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editar-anuncio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="86" column="97" lean-forward="true" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="97" />
+            <state relative-caret-position="557">
+              <caret line="103" column="63" lean-forward="true" selection-start-line="103" selection-start-column="63" selection-end-line="103" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meus_anuncios.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="meus_anuncios.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meus_anuncios.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="472">
               <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anuncios.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anuncios.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
+            <state relative-caret-position="107">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -115,11 +123,11 @@
         <option value="$PROJECT_DIR$/classes/categorias.php" />
         <option value="$PROJECT_DIR$/add-anuncio.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/923f2e1c-11f8-407e-aaf3-241fbdab33df/console_1.sql" />
-        <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/excluir-anuncio.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/923f2e1c-11f8-407e-aaf3-241fbdab33df/console.sql" />
         <option value="$PROJECT_DIR$/editar-anuncio.php" />
         <option value="$PROJECT_DIR$/meus_anuncios.php" />
+        <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/classes/anuncios.php" />
       </list>
     </option>
@@ -136,11 +144,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="347" />
+    <option name="y" value="101" />
+    <option name="width" value="1176" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,28 +156,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="projeto_classificados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto_classificados" type="462c0819:PsiDirectoryNode" />
+              <item name="classificados" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classificados" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projeto_classificados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto_classificados" type="462c0819:PsiDirectoryNode" />
+              <item name="classificados" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classificados" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projeto_classificados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto_classificados" type="462c0819:PsiDirectoryNode" />
+              <item name="classificados" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classificados" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projeto_classificados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto_classificados" type="462c0819:PsiDirectoryNode" />
+              <item name="classificados" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classificados" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="anuncios" type="462c0819:PsiDirectoryNode" />
@@ -178,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,29 +238,30 @@
       <workItem from="1529596896503" duration="1226000" />
       <workItem from="1529600070500" duration="14310000" />
       <workItem from="1529683820528" duration="11361000" />
+      <workItem from="1529696958213" duration="2011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57422000" />
+    <option name="totallyTimeSpent" value="59433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-10" width="1366" height="778" extended-state="6" />
+    <frame x="357" y="437" width="1176" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.24849397" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14128843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15862069" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.16032211" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.118103445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -269,6 +278,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/editar-anuncio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="97" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://923f2e1c-11f8-407e-aaf3-241fbdab33df/schema/classificados/table/anuncios_imagem">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meus_anuncios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -477,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/excluir-anuncio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -505,24 +535,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/923f2e1c-11f8-407e-aaf3-241fbdab33df/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/923f2e1c-11f8-407e-aaf3-241fbdab33df/console.sql" />
     <entry file="file://$PROJECT_DIR$/editar-anuncio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="86" column="97" lean-forward="true" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
+        <state relative-caret-position="557">
+          <caret line="103" column="63" lean-forward="true" selection-start-line="103" selection-start-column="63" selection-end-line="103" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -535,8 +552,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meus_anuncios.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="472">
           <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>

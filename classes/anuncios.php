@@ -94,7 +94,7 @@ class anuncios {
 
                     $img=imagecreatetruecolor($width, $height);
                     if($tipo== 'image/jpeg') {
-                        $origi= imagecreatefrompng('assets/images/anuncios/'.$tmpname);
+                        $origi= imagecreatefromjpeg('assets/images/anuncios/'.$tmpname);
                     }elseif($tipo=='image/png'){
                         $origi= imagecreatefrompng('assets/images/anuncios/'.$tmpname);
 
