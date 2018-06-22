@@ -35,9 +35,9 @@ if(empty($_SESSION['cLogin'])) {
         <tr>
             <td>
                 <?php if(!empty($anuncio['url'])): ?>
-                <img src="assets/images/anuncios/"<?php echo $anuncio['url']; ?> border="0" height="100">
+                <img src="assets/images/anuncios/<?php echo $anuncio['url']; ?>" border="0" height="100">
                 <?php else: ?>
-                    <img src="assets/images/anuncios/default.jpg" height="100" <?php echo $anuncio['url']; ?> border="0">
+                    <img src="assets/images/anuncios/default.jpg" height="100" border="0">
                 <?php endif; ?>
             </td>
             <td><?php echo $anuncio['titulo']; ?></td>

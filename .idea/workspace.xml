@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e792843b-ecd6-4715-891e-9a6f8d3fc23d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/add-anuncio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/anuncios.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/categorias.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/usuarios.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meus_anuncios.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sair.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/923f2e1c-11f8-407e-aaf3-241fbdab33df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/923f2e1c-11f8-407e-aaf3-241fbdab33df.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/anuncios.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/anuncios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editar-anuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/editar-anuncio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meus_anuncios.php" beforeDir="false" afterPath="$PROJECT_DIR$/meus_anuncios.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,16 +46,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="editar-anuncio.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editar-anuncio.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editar-anuncio.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="86" column="97" lean-forward="true" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="97" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="add-anuncio.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add-anuncio.php">
+      <file leaf-file-name="meus_anuncios.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meus_anuncios.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anuncios.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anuncios_imagem" pinned="false" current-in-tab="false">
+        <entry file="das://923f2e1c-11f8-407e-aaf3-241fbdab33df/schema/classificados/table/anuncios_imagem">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
-              <caret selection-end-line="87" />
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -106,10 +116,11 @@
         <option value="$PROJECT_DIR$/add-anuncio.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/923f2e1c-11f8-407e-aaf3-241fbdab33df/console_1.sql" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/classes/anuncios.php" />
-        <option value="$PROJECT_DIR$/meus_anuncios.php" />
         <option value="$PROJECT_DIR$/excluir-anuncio.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/923f2e1c-11f8-407e-aaf3-241fbdab33df/console.sql" />
         <option value="$PROJECT_DIR$/editar-anuncio.php" />
+        <option value="$PROJECT_DIR$/meus_anuncios.php" />
+        <option value="$PROJECT_DIR$/classes/anuncios.php" />
       </list>
     </option>
   </component>
@@ -137,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,19 +159,31 @@
             <path>
               <item name="projeto_classificados" type="b2602c69:ProjectViewProjectNode" />
               <item name="projeto_classificados" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto_classificados" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_classificados" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto_classificados" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_classificados" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="anuncios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -204,12 +228,13 @@
       <workItem from="1529506233811" duration="1555000" />
       <workItem from="1529524284462" duration="121000" />
       <workItem from="1529596896503" duration="1226000" />
-      <workItem from="1529600070500" duration="7386000" />
+      <workItem from="1529600070500" duration="14310000" />
+      <workItem from="1529683820528" duration="11361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39137000" />
+    <option name="totallyTimeSpent" value="57422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-10" width="1366" height="778" extended-state="6" />
@@ -221,6 +246,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.24849397" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14128843" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.16032211" />
@@ -233,7 +259,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.24849397" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
     </layout>
   </component>
@@ -244,6 +269,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editar-anuncio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -445,34 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://923f2e1c-11f8-407e-aaf3-241fbdab33df/schema/classificados/table/anuncios_imagem">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://923f2e1c-11f8-407e-aaf3-241fbdab33df/schema/classificados/table/anuncios">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meus_anuncios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/excluir-anuncio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -487,8 +498,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://923f2e1c-11f8-407e-aaf3-241fbdab33df/schema/classificados/table/anuncios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/923f2e1c-11f8-407e-aaf3-241fbdab33df/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/editar-anuncio.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="86" column="97" lean-forward="true" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/anuncios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://923f2e1c-11f8-407e-aaf3-241fbdab33df/schema/classificados/table/anuncios_imagem">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meus_anuncios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

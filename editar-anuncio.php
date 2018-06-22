@@ -22,16 +22,34 @@ if(isset($_POST['titulo'])&& !empty($_POST['titulo'])){
     $valor=addslashes($_POST['valor']);
     $descricao=addslashes(($_POST['descricao']));
     $estado=addslashes($_POST['conservacao']);
+    if(isset($_FILES['fotos'])) {
+        $fotos = $_FILES['fotos'];
+    }else {
+        $fotos=array();
+    }
 
-    $a->addAnuncio($titulo, $categoria, $valor, $descricao, $estado);
+    $a->editAnuncio($titulo, $categoria, $valor, $descricao, $estado, $fotos, $_GET['id']);
 }
+
+if(isset($_GET['id'])&& !empty($_GET['id'])) {
+
+    $info= $a->getAnuncio($_GET['id']);
+
+} else {
+    ?>
+    <script type="text/javascript">window.location.href = "meus_anuncios";</script>
+    <?php
+    exit;
+
+}
+
 
 ?>
 
     <div class="alert alert-success">Produto Adicionado Com Sucesso</div>
 
     <div class="container">
-        <h1>Meus Anúncios - Adicionar Anúncio</h1>
+        <h1>Meus Anúncios - Editar Anuncio</h1>
 
         <form method="post" enctype="multipart/form-data">
             <div class="form-group">
@@ -45,7 +63,7 @@ if(isset($_POST['titulo'])&& !empty($_POST['titulo'])){
                     foreach ($cats as $cat):
                         ?>
 
-                        <option value="<?php echo $cat['id'] ?>">
+                        <option value="<?php echo $cat['id'] ?>" <?php echo ($info['id_categoria']==$cat['id'])?"selected='selected'":'' ?>>
                             <?php echo utf8_encode($cat['nome']) ?>
                         </option>
 
@@ -56,29 +74,39 @@ if(isset($_POST['titulo'])&& !empty($_POST['titulo'])){
 
             <div class="form-group">
                 <label for="tiutlo">Título:</label>
-                <input type="text" name="titulo" id="titulo" class="form-control">
+                <input type="text" name="titulo" id="titulo" class="form-control" value="<?php echo $info['titulo']; ?>">
             </div>
 
             <div class="form-group">
                 <label for="valor">Valor:</label>
-                <input type="text" name="valor" id="valor" class="form-control">
+                <input type="text" name="valor" id="valor" class="form-control" value="<?php echo $info['valor']; ?>">
             </div>
 
             <div class="form-group">
                 <label for="descricao">Descrição:</label>
-                <textarea name="descricao" class="form-control"></textarea>
+                <textarea name="descricao" class="form-control"><?php echo $info['descricao']; ?></textarea>
             </div>
 
             <div class="form-group">
                 <label for="conservacao">Conservação:</label>
                 <select name="conservacao" id="conservacao" class="form-control">
-                    <option value="0">Ruim</option>
-                    <option value="1">Bom</option>
-                    <option value="2">Ótimo</option>
+                    <option value="0" <?php echo ($info['estado']==0)?"selected='selected'":'' ?>>Ruim</option>
+                    <option value="1" <?php echo ($info['estado']==1)?"selected='selected'":'' ?>>Bom</option>
+                    <option value="2" <?php echo ($info['estado']==2)?"selected='selected'":'' ?>>Ótimo</option>
                 </select>
             </div>
 
-            <input type="submit" value="Adicionar" class="btn btn-default">
+            <div class="form-group">
+                <label for="fotos">Conservação:</label>
+                <input type="file" name="fotos[]" multiple>
+
+                <div class="panel panel-default"></div>
+                <div class="page-header">Fotos do Anuncio</div>
+                <div class="panel-body"></div>
+
+            </div>
+
+            <input type="submit" value="Salvar" class="btn btn-default">
         </form>
     </div>
 
